@@ -136,8 +136,8 @@ body {
 /* --- END Teaser Styles --- */
 
 .speaker {
-  width: 100%;
-  margin: 0 1% 2% 1%;
+  width: 20%;
+  padding: 0 1% 2% 1%;
   float: left;
   border: none;
 }
