@@ -403,16 +403,17 @@ nav {
 }
 
 nav ul {
-  display: inline;
+  display: block;
   list-style: none;
   vertical-align: middle;
+  padding: 10px 20px;
+  background: url(../img/bg-nav.gif) repeat-x left center;
 }
 
 nav li {
   float: left;
-  padding: 0 20% 0 40%;
+  display: inline;
   margin-bottom: 5px;
-  background: url(../img/bg-nav.gif) repeat-x left center;
 }
 
 nav li a:before {
@@ -425,7 +426,6 @@ nav li a:after {
 
 nav li a:link,
 nav li a:visited {
-  display: block;
   padding: 5px 10px;
   background: #f9f9f9;
   border-left: 1px solid #1ea0ce;
@@ -451,10 +451,6 @@ nav li a.active {
 }
 
 .rejectjs nav {
-  position: relative;
-  top: -245px;
-  margin-bottom: -245px;
-  z-index: 0;
 }
 
 .rejectjs nav li {
