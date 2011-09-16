@@ -259,7 +259,7 @@ font : .875em 'andale mono', 'lucida console', monospace;
 line-height : 1.5; }
 
 small {
-font-size : 1em;}
+font-size : 0.85em;}
 
 /* 4.LINKS */
 
@@ -398,22 +398,20 @@ h1 span {
 /* 9.NAVIGATION */
 
 nav {
-  width: 100%;
-  position: relative;
+  margin: 0 0 20px 0;
 }
 
 nav ul {
+  width: 100%;
   display: block;
   list-style: none;
-  vertical-align: middle;
-  padding: 10px 20px;
-  background: url(../img/bg-nav.gif) repeat-x left center;
+  background: none
 }
 
 nav li {
-  float: left;
-  display: inline;
   margin-bottom: 5px;
+  padding: 0 10%;
+  background: url(../img/bg-nav.gif) repeat-x left center;
 }
 
 nav li a:before {
@@ -426,11 +424,13 @@ nav li a:after {
 
 nav li a:link,
 nav li a:visited {
+  display: block;
   padding: 5px 10px;
   background: #f9f9f9;
   border-left: 1px solid #1ea0ce;
   border-right: 1px solid #1ea0ce;
   color: #1ea0ce;
+  font-size: 1.15em;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
@@ -450,9 +450,6 @@ nav li a.active {
   text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
 }
 
-.rejectjs nav {
-}
-
 .rejectjs nav li {
   float: none;
   }
@@ -466,6 +463,34 @@ nav li a.active {
 
 .content {
 }
+
+/* --- Reject.JS Final Header --- */
+
+.rejectjs header hgroup {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.rejectjs header h2 {
+  margin-top: 35px;
+}
+
+.reject-logo {
+  height: 245px;
+  width: 247px;
+  margin: 0 auto;
+  background: url(../img/logo-rejectjs.png) no-repeat top left;
+  display: block;
+  float: none;
+}
+
+.rejectjs h1 img {
+  margin-top: 20px;
+}
+
+/* --- END Final Header --- */
 
 /* --- Speakers --- */
 
@@ -651,24 +676,6 @@ nav li a.active {
 }
 
 /* --- END Teaser Styles --- */
-
-/* --- Reject.JS Final Announcement --- */
-
-.reject-logo {
-  height: 245px;
-  width: 247px;
-  margin: 0 20px;
-  background: url(../img/logo-rejectjs.png) no-repeat top left;
-  display: block;
-  position: relative;
-  z-index: 10;
-}
-
-.rejectjs h1 img {
-  margin-top: 20px;
-}
-
-/* --- END Final Announcement --- */
 
 .col-third {
   width: 100%;
