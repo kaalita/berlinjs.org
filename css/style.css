@@ -501,6 +501,10 @@ nav li a.active {
   float: left;
 }
 
+.speaker-info h5 {
+  color: #CE1E47;
+}
+
 .speaker-list img {
   width: 30%;
   float: left;
