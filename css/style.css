@@ -536,12 +536,13 @@ nav li a.active {
 /* --- Schedule --- */
 
 .schedule table {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
 }
 
 .schedule td {
   border-bottom: 1px solid #1ea0ce;
+  padding-left: 20px;
 }
 
 .schedule tr:last-child td {
