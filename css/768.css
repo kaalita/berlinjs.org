@@ -205,6 +205,8 @@ a.button:active {
 
 .col-third {
   width: 33%;
+}
+
 .speaker {
   width: 31%;
   margin: 0 1% 2% 1%;
@@ -222,13 +224,12 @@ a.button:active {
   margin-right: 0;
 }
 
-
 /* --- Speakers --- */
-
+/*
 .speaker-list {
-  width: 50%;
+  width: 100%;
   float: left;
-  display: block;
+  display:block;
   text-align: left;
 }
 
@@ -272,7 +273,6 @@ a.button:active {
   background: #e9e9e9;
   border-radius: 10px;
   display: inline-block;
-  float: none;
   clear: left;
   font-size: 12px;
 }
@@ -283,7 +283,7 @@ a.button:active {
   box-shadow: 1px 1px 3px #666;
   text-decoration: none;
 }
-
+*/
 /* --- END Speakers --- */
 
 .schedule ul {

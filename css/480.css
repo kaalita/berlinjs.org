@@ -138,20 +138,20 @@ body {
 }
 
 .speaker-info {
-  width: 100%;
+  width: 30%;
   margin-right: 10px;
   padding-bottom: 10px;
   float: left;
 }
 
 .speaker-list img {
-  width: 30%;
+  width: 100%;
   float: left;
   margin: 0 10px 10px 0 ;
 }
 
 .talk {
-  width: 100%;
+  width: 60%;
   float: left;
 }
 
