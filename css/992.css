@@ -54,68 +54,6 @@ _____________________________________________________
 
 /* 9.NAVIGATION */
 /* 10.CONTENT */
-
-/* --- RejectJS Teaser Styles --- */
-
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
-}
-
-.teaser-text {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
-}
-
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 3.65em;
-  text-shadow: 2px 2px 0 #223035;
-}
-
-.teaser-text h2 {
-  font-size: 1.4em;
-  font-weight: normal;
-}
-
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 2.95em;
-}
-
-.teaser-text h4 {
-  font-size: 1.2em;
-  font-weight: normal;
-}
-
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-}
-
-/* --- END Teaser Styles --- */
-
 /* 11.MAIN */
 
 .promo p {

@@ -164,6 +164,19 @@ nav li a:visited {
   letter-spacing: 0.01em;
 }
 
+nav li a:hover {
+  background: rgb(30,160,206);
+  color: #fff;
+  box-shadow: 0px 0px 5px #555;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
+nav li a.active {
+  background: rgb(30,160,206);
+  color: #fff;
+  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
+}
+
 /* 10.CONTENT */
 
 /* --- Reject.JS Final Header --- */
@@ -193,67 +206,6 @@ nav li a:visited {
 }
 
 /* --- END Final Header --- */
-
-/* --- RejectJS Teaser Styles --- */
-
-.teaser {
-  position: relative;
-  margin-bottom: -5px;
-}
-
-.teaser-text {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.teaser-text h1,
-.teaser-text h2,
-.teaser-text h3,
-.teaser-text h4 {
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
-}
-
-.teaser-text h1 {
-  margin-bottom: 0;
-  margin-top: 22%;
-  font-size: 2.8em;
-  text-shadow: 2px 2px 0 #223035;
-}
-
-.teaser-text h2 {
-  font-size: 1.1em;
-  font-weight: normal;
-}
-
-.teaser-text h3 {
-  margin-top: 15%;
-  margin-bottom: 0;
-  font-size: 2.3em;
-}
-
-.teaser-text h4 {
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
-.teaser-text hgroup {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.teaser-text aside {
-  width: 55%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-}
-
-/* --- END Teaser Styles --- */
 
 .teaser a.button {
   position: absolute;
