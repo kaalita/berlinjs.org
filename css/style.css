@@ -314,6 +314,10 @@ a.smallbutton {
   font-size: 1em;
 }
 
+/*a img {
+  margin: 0 auto;
+}*/
+
 .center {
   display: table;
   margin: 10px auto;
